@@ -62,29 +62,31 @@ export const projects = [
     live: "https://raghvendrap-portfolio.vercel.app/",
 
     summary:
-      "A production-ready travel accommodation platform built using the MERN stack with authentication, image management, cloud deployment, Docker containerization, and CI/CD automation.",
+    "A production-ready travel accommodation platform built using Node.js, Express.js, MongoDB, and EJS with secure authentication, cloud deployment, Infrastructure as Code, containerization, and automated CI/CD pipelines.",
 
-    stack: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "EJS",
-      "Bootstrap",
-      "Cloudinary",
-      "Mapbox",
-      "Docker",
-      "AWS EC2",
-      "GitHub Actions",
-      "Terraform"
-    ],
+  stack: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "EJS",
+    "Bootstrap",
+    "Cloudinary",
+    "Mapbox",
+    "Docker",
+    "AWS EC2",
+    "Terraform",
+    "Ansible",
+    "GitHub Actions"
+  ],
 
-    points: [
-      "Developed a complete travel booking platform using MVC architecture and REST APIs.",
-      "Implemented authentication, authorization, reviews, image uploads and interactive maps.",
-      "Containerized the application using Docker and deployed it on AWS EC2.",
-      "Automated deployment using GitHub Actions CI/CD pipeline.",
-      "Provisioned AWS infrastructure using Terraform."
-    ]
+  points: [
+    "Developed a full-stack travel accommodation platform following the MVC architecture with authentication, authorization, reviews, and image management.",
+    "Integrated Cloudinary for image storage and Mapbox APIs for interactive maps and geolocation.",
+    "Containerized the application using Docker and deployed it on AWS EC2.",
+    "Provisioned AWS infrastructure using reusable Terraform modules following Infrastructure as Code (IaC) principles.",
+    "Automated server provisioning, application deployment, and service configuration using Ansible playbooks.",
+    "Implemented a GitHub Actions CI/CD pipeline to automate build and deployment workflows."
+  ]
   },
 
   {
