@@ -1,0 +1,38 @@
+﻿.cert-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.cert-card {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 24px;
+}
+
+.cert-badge {
+  display: grid;
+  width: 72px;
+  height: 72px;
+  place-items: center;
+  border-radius: 8px;
+  color: #ffffff;
+  background: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.meta-line {
+  margin: 0 0 6px;
+}
+
+.cert-content p:last-child {
+  margin: 8px 0 0;
+}
+
+@media (max-width: 640px) {
+  .cert-card {
+    grid-template-columns: 1fr;
+  }
+}
