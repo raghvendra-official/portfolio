@@ -41,18 +41,11 @@ export const experience = [
       "Configured AGV mapping, routing, server setup, and system integration.",
       "Monitored automation workflows and resolved deployment issues.",
       "Worked with SMT manufacturing systems including Pick-and-Place, AOI, SPI and Reflow Oven.",
-      "Reduced manual intervention through automation and production workflow optimization."
+      "Reduced manual intervention through automation and production workflow optimization.",
     ],
 
-    technologies: [
-      "AGV",
-      "Automation",
-      "OPC",
-      "Linux",
-      "AWS",
-      "JavaScript"
-    ]
-  }
+    technologies: ["AGV", "Automation", "OPC", "Linux", "AWS", "JavaScript"],
+  },
 ];
 
 export const projects = [
@@ -98,13 +91,7 @@ export const projects = [
 export const skillGroups = [
   {
     title: "Programming Languages",
-    items: [
-      "JavaScript",
-      "C++",
-      "HTML5",
-      "CSS3",
-      "SQL"
-    ]
+    items: ["JavaScript", "C++", "HTML5", "CSS3", "SQL"],
   },
 
   {
@@ -115,8 +102,8 @@ export const skillGroups = [
       "Redux",
       "Material UI",
       "EJS",
-      "Responsive Design"
-    ]
+      "Responsive Design",
+    ],
   },
 
   {
@@ -126,18 +113,13 @@ export const skillGroups = [
       "Express.js",
       "REST APIs",
       "JWT Authentication",
-      "MVC Architecture"
-    ]
+      "MVC Architecture",
+    ],
   },
 
   {
     title: "Databases",
-    items: [
-      "MongoDB",
-      "MongoDB Atlas",
-      "MySQL",
-      "AWS DynamoDB"
-    ]
+    items: ["MongoDB", "MongoDB Atlas", "MySQL", "AWS DynamoDB"],
   },
 
   {
@@ -155,26 +137,20 @@ export const skillGroups = [
       "GitHub Actions",
       "CI/CD",
       "Linux",
-    ]
+    ],
   },
 
   {
     title: "Tools & Platforms",
-    items: [
-      "GitHub",
-      "VS Code",
-      "Postman",
-      "Cloudinary",
-      "Mapbox",
-      "Figma"
-    ]
-  }
+    items: ["GitHub", "VS Code", "Postman", "Cloudinary", "Mapbox", "Figma"],
+  },
 ];
 
 export const education = [
   {
     school: "Dr. A. P. J. Abdul Kalam Technical University, Lucknow",
-    degree: "Bachelor of Technology in Electronics and Communication (GPA: 7.46)",
+    degree:
+      "Bachelor of Technology in Electronics and Communication (GPA: 7.46)",
     period: "Nov 2021 - June 2025",
     location: "Ghaziabad, India",
   },
@@ -193,5 +169,6 @@ export const certifications = [
     date: "Jul 2024",
     description:
       "Validated foundational GitHub knowledge across repositories, collaboration, branching, markdown, and project workflows.",
+    credential: "https://www.credly.com/badges/30a47c58-ea86-4061-8f5a-580ea0bc7422/public_url",
   },
 ];

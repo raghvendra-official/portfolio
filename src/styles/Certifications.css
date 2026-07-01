@@ -13,18 +13,24 @@
 
 .cert-badge {
   display: grid;
-  width: 72px;
-  height: 72px;
+  width:72px;
+  height:72px;
   place-items: center;
-  border-radius: 8px;
   color: #ffffff;
-  background: var(--accent);
-  font-size: 1.25rem;
   font-weight: 900;
+  font-size:2rem;
+  background:#24292f;
+  border-radius:14px; 
 }
 
 .meta-line {
-  margin: 0 0 6px;
+margin: 0 0 6px;
+display:flex;
+gap:14px;
+font-size:.9rem;
+color:#64748b;
+font-weight:600;
+margin-bottom:8px;
 }
 
 .cert-content p:last-child {
@@ -35,4 +41,32 @@
   .cert-card {
     grid-template-columns: 1fr;
   }
+}
+
+.cert-button{
+
+display:inline-flex;
+
+margin-top:18px;
+
+padding:10px 18px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-weight:700;
+
+background:#2563eb;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.cert-button:hover{
+
+background:#1d4ed8;
+
 }
