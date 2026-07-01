@@ -65,6 +65,16 @@
   font-size: 0.9rem;
   font-weight: 700;
   transition: transform 180ms ease, color 180ms ease, background 180ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-pill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 .skill-pill:hover {
