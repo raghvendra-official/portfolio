@@ -1,3 +1,8 @@
+import wanderlustImg from "../assets/wanderlust.png";
+import terraformImg from "../assets/terraform.png";
+import ansibleImg from "../assets/ansible.png";
+import cyberImg from "../assets/cybersentinels.png";
+
 export const profile = {
   name: "Raghvendra Pandey",
   title: "Aspiring Software Engineer",
@@ -51,41 +56,116 @@ export const experience = [
 export const projects = [
   {
     name: "WanderLust",
-    category: "Full Stack Travel Accommodation Platform",
+    image:wanderlustImg,
+    category: "Full Stack • Cloud • DevOps",
     github: "https://github.com/raghvendra-official/WanderLust",
+    live: "https://raghvendrap-portfolio.vercel.app/",
+
     summary:
-      "A travel accommodation platform built with MVC architecture, authenticated listing workflows, reviews, image storage, and location services.",
+      "A production-ready travel accommodation platform built using the MERN stack with authentication, image management, cloud deployment, Docker containerization, and CI/CD automation.",
+
     stack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
       "Node.js",
       "Express.js",
       "MongoDB",
       "EJS",
+      "Bootstrap",
       "Cloudinary",
       "Mapbox",
+      "Docker",
+      "AWS EC2",
+      "GitHub Actions",
+      "Terraform"
     ],
+
     points: [
-      "Developed full-stack listing and review workflows using Node.js, Express.js, MongoDB, and EJS.",
-      "Implemented authentication, authorization, and CRUD operations for travel listings.",
-      "Integrated Cloudinary, Mapbox, and RESTful APIs for images, maps, and data management.",
-    ],
+      "Developed a complete travel booking platform using MVC architecture and REST APIs.",
+      "Implemented authentication, authorization, reviews, image uploads and interactive maps.",
+      "Containerized the application using Docker and deployed it on AWS EC2.",
+      "Automated deployment using GitHub Actions CI/CD pipeline.",
+      "Provisioned AWS infrastructure using Terraform."
+    ]
   },
+
+  {
+    name:"Terraform AWS Infrastructure",
+    image:terraformImg,
+    category: "Infrastructure as Code",
+    github: "https://github.com/raghvendra-official/terraform_aws",
+    live: "",
+
+    summary:
+      "Reusable Terraform modules for provisioning scalable AWS infrastructure following Infrastructure as Code (IaC) principles.",
+
+    stack: [
+      "Terraform",
+      "AWS",
+      "EC2",
+      "VPC",
+      "Subnets",
+      "Security Groups",
+      "Internet Gateway"
+    ],
+
+    points: [
+      "Created reusable Terraform modules following best practices.",
+      "Provisioned EC2, VPC, Subnets and networking resources.",
+      "Parameterized infrastructure using variables and outputs.",
+      "Published Terraform modules to the Terraform Registry."
+    ]
+  },
+
+  {
+    name:"Ansible Automation",
+    image:ansibleImg,
+    category: "Configuration Management",
+    github: "https://github.com/raghvendra-official/ansible_playbook",
+    live: "",
+
+    summary:
+      "Automation scripts and Ansible playbooks for server provisioning, package management and configuration automation.",
+
+    stack: [
+      "Ansible",
+      "Linux",
+      "SSH",
+      "YAML",
+      "Apache",
+      "Firewalld"
+    ],
+
+    points: [
+      "Automated Linux server configuration using Ansible.",
+      "Developed reusable playbooks and Ansible roles.",
+      "Managed package installation and service configuration.",
+      "Implemented Infrastructure Automation following DevOps practices."
+    ]
+  },
+
   {
     name: "CyberSentinels",
-    category: "Cybersecurity Analysis Platform",
+    image:cyberImg,
+    category: "Cybersecurity Platform",
     github: "https://github.com/raghvendra-official/CyberSentinels",
+    live: "",
+
     summary:
-      "A cybersecurity platform with phishing detection, vulnerability assessment, intrusion monitoring, and a responsive analysis dashboard.",
-    stack: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js"],
-    points: [
-      "Developed phishing detection, vulnerability assessment, and intrusion monitoring modules.",
-      "Built an interactive dashboard with authentication and responsive UI components.",
-      "Added real-time security analysis features for clearer monitoring workflows.",
+      "Cybersecurity platform providing phishing detection, vulnerability assessment and intrusion monitoring with a responsive dashboard.",
+
+    stack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js"
     ],
-  },
+
+    points: [
+      "Developed phishing detection and vulnerability assessment modules.",
+      "Built an interactive security dashboard.",
+      "Implemented authentication and responsive user interface."
+    ]
+  }
 ];
 
 export const skillGroups = [
